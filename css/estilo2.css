@@ -1,0 +1,117 @@
+*{
+	margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: comic sans;
+    font-size: 16pt;
+    padding: 10px;
+    margin: auto;
+    background: #29D5C7;
+}
+
+h1 span {
+    border: 2px;
+    padding: 10px;
+}
+/* fondo del encabezado */
+#header {
+    background-image: url("https://fondosmil.com/fondo/31351.png");
+    background-size: auto;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 35px;
+    padding: 15px;
+    margin-bottom: 10px;
+    width: auto;
+}
+
+/* Estilo del video */
+video {
+    margin: center;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+}
+/* Estilo de todos los titulos */
+
+/* Estilo del menu*/
+
+.navegacion{
+    width: auto;
+    margin: 10px auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px 2px;
+}
+
+.navegacion ul{
+    list-style: none;
+    border-radius: 10px;
+}
+
+.menu > li{
+    position: relative;
+    display: inline-block;
+    border-radius: 10px;
+    
+}
+
+.menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: #20bcd5;
+    font-family: comic sans;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.menu li a:hover{
+    color: #3096B4;
+    transition: all .2s;
+    border-radius: 10px;
+}
+
+/* Submenu*/
+
+.submenu{
+    position: absolute;
+    background: #2A1717;
+    width: 120%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+    border-radius: 10px;
+}
+
+.submenu li a{
+    display: block;
+    padding: 15px;
+    color: #fff;
+    font-family: comic sans;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+    border-radius: 10px;
+}
+
+.uno{
+	width: 442px;
+	height: 400px;
+	float: left;
+	text-align: center;
+    background: #fff;
+}
+
+
+
+
+
+
+
+    

@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: comic sans;
+    font-size: 16pt;
+    padding: 10px;
+    margin: auto;
+    background: #29D5C7;
+}
+
+.cabeza{
+    background-image: url("https://fondosmil.com/fondo/31351.png");
+    background-size: auto;
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 10px;
+    width: auto;
+    font-family: lucida bright;
+    font-size: 40px;
+}
+/* Estilo del menu*/
+
+.navegacion{
+    width: auto;
+    margin: 10px auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px 2px;
+}
+
+.navegacion ul{
+    list-style: none;
+    border-radius: 10px;
+}
+
+.menu > li{
+    position: relative;
+    display: inline-block;
+    border-radius: 10px;
+    
+}
+
+.menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: #20bcd5;
+    font-family: comic sans;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.menu li a:hover{
+    color: #3096B4;
+    transition: all .2s;
+    border-radius: 10px;
+}
+
+/* Submenu*/
+
+.submenu{
+    position: absolute;
+    background: #2A1717;
+    width: 120%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+    border-radius: 10px;
+}
+
+.submenu li a{
+    display: block;
+    padding: 15px;
+    color: #fff;
+    font-family: comic sans;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+    border-radius: 10px;
+}
+.seccion{
+    padding: 15px;
+    background-color: #FFF;
+}
+
+.futbol{
+    float: left;
+    margin-right: 35px;
+    margin-left: 35px;
+    margin-top: 150px;
+    border-radius: 10px;
+    margin-bottom: 170px;
+    border-radius: 55%;
+    box-shadow: 0px 1px 10px 2px;
+}
+
+.cirugia{
+    float: right;
+    margin-right: 25px;
+    margin-left: 35px;
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px 2px;
+}
+
+.daltonismo{
+    float: right;
+    margin-left: 25px;
+    border-radius: 10px;
+    margin-block: 60px;
+    margin-bottom: 250px;
+    box-shadow: 0px 1px 10px 2px;
+}
+
+.daltonismo2{
+    float: right;
+    margin-left: 25px;
+    border-radius: 10px;
+    margin-block: 60px;
+    margin-bottom: 250px;
+    box-shadow: 0px 1px 10px 2px;
+}
+
+

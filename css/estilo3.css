@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: comic sans;
+    font-size: 16pt;
+    padding: 10px;
+    margin: auto;
+    background: #29D5C7;
+}
+
+.cabeza{
+    background-image: url("https://fondosmil.com/fondo/31351.png");
+    background-size: auto;
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 10px;
+    width: auto;
+    font-family: lucida bright;
+    font-size: 40px;
+}
+/* Estilo del menu*/
+
+.navegacion{
+    width: auto;
+    margin: 10px auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px 2px;
+}
+
+.navegacion ul{
+    list-style: none;
+    border-radius: 10px;
+}
+
+.menu > li{
+    position: relative;
+    display: inline-block;
+    border-radius: 10px;
+    
+}
+
+.menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: #20bcd5;
+    font-family: comic sans;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.menu li a:hover{
+    color: #3096B4;
+    transition: all .2s;
+    border-radius: 10px;
+}
+
+/* Submenu*/
+
+.submenu{
+    position: absolute;
+    background: #2A1717;
+    width: 120%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+    border-radius: 10px;
+}
+
+.submenu li a{
+    display: block;
+    padding: 15px;
+    color: #fff;
+    font-family: comic sans;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+    border-radius: 10px;
+}
+
+#parrafo{
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+
+}
+
+.papa{
+    float: left;
+    margin-right: 35px;
+    border-radius: 10px;
+    margin-bottom: 170px;
+    box-shadow: 0px 1px 10px 2px;
+}
+
+.mama{
+    float: right;
+    margin-right: 10px;
+    margin-left: 25px;
+    border-radius: 10px;
+    margin-bottom: 190px;
+    box-shadow: 0px 1px 10px 2px;
+}
+
+.hermana{
+    float: left;
+    margin-right: 25px;
+    margin-left: 35px;
+    border-radius: 10px;
+    margin-bottom: 250px;
+    box-shadow: 0px 1px 10px 2px;
+}
+.abuela{
+    float: right;
+    margin-right: 50px;
+    margin-left: 20px;
+    border-radius: 10px;
+    margin-bottom: 250px;
+    box-shadow: 0px 1px 10px 2px;
+}
+
+.novia{
+    float: left;
+    margin-right: 30px;
+    border-radius: 10px;
+    margin-bottom: 35px;
+    box-shadow: 0px 1px 10px 2px;
+}

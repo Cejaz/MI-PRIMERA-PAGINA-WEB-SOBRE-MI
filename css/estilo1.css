@@ -1,0 +1,161 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* Estilo del parrafo principal */
+body {
+    font-family: comic sans;
+    font-size: 16pt;
+    background: #29D5C7;
+    padding: 10px;
+    margin: auto;
+}
+
+/* Estilo de todos los titulos */
+h1 {
+    font-size: 15pt;
+    color: #000 ;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: 0 0 10px 0;
+}
+
+/* borde de los titulos */
+h1 span {
+    font-family: lucida bright;
+    font-size: 55px;
+    border: 2px;
+}
+
+/* Estilo de foto */
+.imagen {
+    border: 3px solid white;
+    border-radius: 55%;
+    box-shadow: 0px 1px 10px 2px;
+}
+
+/* Estilo de todos los cuadros */
+.section {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+/* fondo del encabezado */
+#header {
+    background-image: url("https://fondosmil.com/fondo/31351.png");
+    background-size: 800px;
+
+}
+
+/* Estilo de foto de encabezado */
+#header img {
+    display: block;
+    width: 85px;
+    height: 85px;
+    margin: auto;
+}
+
+/* Estilo de letra de foto de perfil */
+#header p {
+    font-size: 25pt;
+    color: #17202A ;
+    padding-top: 5px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    
+}
+
+
+.navegacion{
+    width: auto;
+    margin: 10px auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px 2px;
+}
+
+.navegacion ul{
+    list-style: none;
+    border-radius: 10px;
+}
+
+.menu > li{
+    position: relative;
+    display: inline-block;
+    border-radius: 10px;
+    
+}
+
+.menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: #20bcd5;
+    font-family: comic sans;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.menu li a:hover{
+    color: #3096B4;
+    transition: all .2s;
+    border-radius: 10px;
+}
+
+/* Submenu*/
+
+.submenu{
+    position: absolute;
+    background: #2A1717;
+    width: 120%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+    border-radius: 10px;
+}
+
+.submenu li a{
+    display: block;
+    padding: 15px;
+    color: #fff;
+    font-family: comic sans;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+    border-radius: 10px;
+}
+
+#parrafo{
+    padding: 40px;
+
+}
+
+.egresado{
+    float: left;
+    margin-right: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px 2px; 
+    margin-bottom: 100px;
+}
+
+.colegio{
+    float: right;
+    margin-right: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+    box-shadow: 0px 1px 10px 2px;
+    border-radius: 55%;
+    margin-bottom: 80px;
+}
